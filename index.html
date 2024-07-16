@@ -2,52 +2,43 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <!-- DEBUT CDN CSS -->
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
-    <!-- FIN CDN CSS -->
+  <!-- DEBUT CDN CSS -->
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
+  <!-- ANIMATE CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+   <!-- FIN CDN CSS -->
 </head>
 
 <body>
 
 
-<!-- DEBUT NAVBAR -->
-    <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- DEBUT NAVBAR -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- Container wrapper -->
     <div class="container-fluid">
       <!-- Toggle button -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-mdb-toggle="collapse"
-        data-mdb-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
-  
+
       <!-- Collapsible wrapper -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- Navbar brand -->
         <a class="navbar-brand mt-2 mt-lg-0" href="#">
-          <img
-            src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-            height="15"
-            alt="MDB Logo"
-            loading="lazy"
-          />
+          <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="15" alt="MDB Logo"
+            loading="lazy" />
         </a>
         <!-- Left links -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -64,31 +55,22 @@
         <!-- Left links -->
       </div>
       <!-- Collapsible wrapper -->
-  
+
       <!-- Right elements -->
       <div class="d-flex align-items-center">
         <!-- Icon -->
         <a class="text-reset me-3" href="#">
           <i class="fas fa-shopping-cart"></i>
         </a>
-  
+
         <!-- Notifications -->
         <div class="dropdown">
-          <a
-            class="text-reset me-3 dropdown-toggle hidden-arrow"
-            href="#"
-            id="navbarDropdownMenuLink"
-            role="button"
-            data-mdb-toggle="dropdown"
-            aria-expanded="false"
-          >
+          <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false">
             <i class="fas fa-bell"></i>
             <span class="badge rounded-pill badge-notification bg-danger">1</span>
           </a>
-          <ul
-            class="dropdown-menu dropdown-menu-end"
-            aria-labelledby="navbarDropdownMenuLink"
-          >
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
             <li>
               <a class="dropdown-item" href="#">Some news</a>
             </li>
@@ -102,26 +84,12 @@
         </div>
         <!-- Avatar -->
         <div class="dropdown">
-          <a
-            class="dropdown-toggle d-flex align-items-center hidden-arrow"
-            href="#"
-            id="navbarDropdownMenuAvatar"
-            role="button"
-            data-mdb-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <img
-              src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-              class="rounded-circle"
-              height="25"
-              alt="Black and White Portrait of a Man"
-              loading="lazy"
-            />
+          <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar"
+            role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25"
+              alt="Black and White Portrait of a Man" loading="lazy" />
           </a>
-          <ul
-            class="dropdown-menu dropdown-menu-end"
-            aria-labelledby="navbarDropdownMenuAvatar"
-          >
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
             <li>
               <a class="dropdown-item" href="#">My profile</a>
             </li>
@@ -140,60 +108,47 @@
   </nav>
   <!-- Navbar -->
 
-<!-- FIN NAVBAR -->
+  <!-- FIN NAVBAR -->
 
 
 
-<!-- DEBUT CAROUSEL -->
-<!-- Carousel wrapper -->
-<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+  <!-- DEBUT CAROUSEL -->
+  <!-- Carousel wrapper -->
+  <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
     <!-- Indicators -->
     <div class="carousel-indicators">
-      <button
-        type="button"
-        data-mdb-target="#carouselBasicExample"
-        data-mdb-slide-to="0"
-        class="active"
-        aria-current="true"
-        aria-label="Slide 1"
-      ></button>
-      <button
-        type="button"
-        data-mdb-target="#carouselBasicExample"
-        data-mdb-slide-to="1"
-        aria-label="Slide 2"
-      ></button>
-      <button
-        type="button"
-        data-mdb-target="#carouselBasicExample"
-        data-mdb-slide-to="2"
-        aria-label="Slide 3"
-      ></button>
+      <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2" aria-label="Slide 3"></button>
     </div>
-  
+
     <!-- Inner -->
     <div class="carousel-inner">
       <!-- Single item -->
       <div class="carousel-item active">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100" alt="Sunset Over the City"/>
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100"
+          alt="Sunset Over the City" />
         <div class="carousel-caption d-none d-md-block">
           <h5>First slide label</h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
       </div>
-  
+
       <!-- Single item -->
       <div class="carousel-item">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="Canyon at Nigh"/>
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100"
+          alt="Canyon at Nigh" />
         <div class="carousel-caption d-none d-md-block">
           <h5>Second slide label</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
-  
+
       <!-- Single item -->
       <div class="carousel-item">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100"
+          alt="Cliff Above a Stormy Sea" />
         <div class="carousel-caption d-none d-md-block">
           <h5>Third slide label</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -201,7 +156,7 @@
       </div>
     </div>
     <!-- Inner -->
-  
+
     <!-- Controls -->
     <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -214,12 +169,12 @@
   </div>
   <!-- Carousel wrapper -->
 
-<!-- FIN CAROUSEL -->
+  <!-- FIN CAROUSEL -->
 
 
 
-<!-- DEBUT CARD -->
-<div class="row">
+  <!-- DEBUT CARD -->
+  <div class="row">
     <div class="col-sm-6">
       <div class="card">
         <div class="card-body">
@@ -244,7 +199,7 @@
 
 
   <!-- DEBUT PARAGRAPHE -->
-  <p class="lh-1">
+  <p class="lh-1 animate__animated animate__bounce animate__delay-2s">
     Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio
     dui. Cras mattis pannenkoek purus sit amet fermentum. Praesent commodo cursus magna, vel
     scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit.
@@ -280,11 +235,12 @@
 
 
 
-<!-- FIN CARD -->
+  <!-- FIN CARD -->
 
-    <!-- DEBUT CDN JS  -->
-    <!-- MDB -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
-    <!-- FIN CDN JS -->
+  <!-- DEBUT CDN JS  -->
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+  <!-- FIN CDN JS -->
 </body>
+
 </html>
